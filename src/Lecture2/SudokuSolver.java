@@ -1,3 +1,5 @@
+package Lecture2;
+
 public class SudokuSolver {
     private int[][] board;
 
