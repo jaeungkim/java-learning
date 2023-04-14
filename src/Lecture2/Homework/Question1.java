@@ -1,7 +1,6 @@
 package Lecture2.Homework;
 
 public class Question1 {
-
     public static int[] fibonacci(int n) { //question 1
         int[] sequence = new int[n];
         if (n >= 1) {
@@ -15,8 +14,6 @@ public class Question1 {
         }
         return sequence;
     }
-
-
     public static void main(String[] args) {
         int[] sequence = fibonacci(10);
         for (int i = 0; i < sequence.length; i++) {

@@ -1,7 +1,7 @@
 package Lecture1;
-
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
+import Lecture3.Person;
 public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
@@ -37,5 +37,9 @@ public class Main {
 
         //문자와 문자를 더할 때는 아래와 같이 한다.
         System.out.println("생활"+"코딩");
+
+        Person newPerson = new Person("hello", 5);
+
+        newPerson.sayHello();
     }
 }
